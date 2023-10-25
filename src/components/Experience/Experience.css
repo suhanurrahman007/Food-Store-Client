@@ -1,0 +1,19 @@
+.progress-container {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #c5a35e;
+    /* You can adjust the color to match your warning color */
+    white-space: nowrap;
+    line-height: 20px;
+    padding-left: 5px;
+    color: #333;
+    /* Adjust the text color as needed */
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+  font-family: 'Vidaloka',
+  serif;
+} */
+
+/* Default to light theme */
+:root {
+  --primary-bg: white;
+  --primary-text: black;
+}
+
+[data-theme="dark"] {
+  --primary-bg: black;
+  --primary-text: white;
+}
+
+body {
+  font-family: 'Vidaloka',
+  serif;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}

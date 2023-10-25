@@ -1,0 +1,6 @@
+#sidebar a.active {
+    color: orangered;
+    background-color: #262626;
+    font-weight: bold;
+
+}
